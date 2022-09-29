@@ -2,7 +2,7 @@
     padding: 40px 0;
    
     width: fit-content;    
-    display: flex;
+    display: block;
     gap: 20px;
     flex-flow: row wrap;  
     justify-content: space-evenly;
@@ -11,10 +11,10 @@
 
 .product-list_card {
     box-sizing: border-box;
-    padding: 10px;
+    padding: 25px;
     border-radius: 4px;
     flex: 0 1 270px;
-    height: 100px;
+   
     background-color: white;
     box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;       
 }
